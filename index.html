@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Qudroh Asamu</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            section{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                min-height: 400px;
+                padding: 100px 20vw;
+            }
+
+            table {
+                width: 100%;
+            }
+
+            table#projects th, table#projects td {                
+                border: 1px solid black;
+                border-radius: 10px;  
+                text-align: center;              
+            }            
+
+            table#projects caption {
+                font-size: large;
+                font-weight: 600;
+            }
+
+            table#experience th, table#experience td {                
+                border: 1px solid black;
+                border-radius: 5px;  
+                text-align: center;              
+            }            
+
+            table#experience caption {
+                font-size: large;
+                font-weight: 600;
+            }
+
+            ul {
+                list-style-type: none;                
+                margin: 0;
+                padding: 0;
+                overflow: hidden;                
+                background-color: #333;                
+            }
+
+            li {
+                float: right;
+            }
+
+            li a {
+                display: block;
+                color:white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: grey;
+            }
+
+            .active {
+                background-color: #AEC6CF;
+            }
+
+            #blue {
+                background-color: #AEC6CF;
+                background-image: linear-gradient(#AEC6CF, #C8A2C8);
+            }
+            
+            #lilac {
+                background-color: #C8A2C8;
+                background-image: linear-gradient(#C8A2C8, #F7CAC9);
+            }
+            
+            #pink{
+                background-color: #F7CAC9;
+                background-image: linear-gradient(#F7CAC9, #AEC6CF);
+            }
+            #nude{
+                background-color: #E3BC9A;
+                background-image: linear-gradient(#aec6cf, #e3bc9a);
+            }
+
+            #nudetoblue{
+                background-color: #E3BC9A; /*For browsers that do not support gradients*/
+                background-image: linear-gradient(#E3BC9A, #C8A2C8);
+            }
+                        
+        </style>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#home">Home</a></li>
+        </ul>
+
+        <section id="blue">
+            <table>
+                <tr>
+                    <td><img src="D:\ITEC 1010\Assignments\Assignment 2 Web Development\Photo with no background.png" alt="Kudrah Asamu Photo" width="90%"></td>
+                    <td><b>Kudrah Asamu</b><br>I'm an undergraduate at York University in Canada, where I'm pursuing a Bachelor of Arts in Applied Mathematics 
+                        with the goal of becoming a Data Analyst.</td>
+                <tr>
+            </table>
+        </section>
+
+        <section id="lilac">
+            <h1 id="about">About</h1>
+            <p> I enjoy doing Do-It-Yourself projects. My love for diving into Do-It-Yourself (DIY) projects has earned me the nickname 'DIY Queen' among my friends. 
+                This passion for DIY stems from the deep satisfaction I feel with each project I start and see through to completion on my own.
+                DIY is not merely a hobby for me, it's a way of life. It's about rolling up my sleeves and getting hands-on with various tasks, whether it's crafting, 
+                home improvement, woodworking, or even cooking. What captivates me most about DIY is the opportunity to bring my creative ideas to life and witness the 
+                tangible results of my efforts.</p>
+        </section>
+
+        <section id="pink">
+            <table id="experience">
+                <caption>LEADERSHIP EXPERIENCE</caption>
+                <tr>
+                    <th>Position</th>
+                    <th>Company/Organization</th>
+                    <th>Responsibilities</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td><b>President Ambassador</b></td>
+                    <td>York University</td>
+                    <td>
+                        Collaborated with the Teaching Kitchen to tackle on-campus food insecurity by conducting workshops on creating meals from diverse recipes, alongside offering valuable guidance and resources to those in need.<br>
+                        Contributed as a York U Spirit Day Ambassador, engaging with the campus community during the event and contributing to the drone filming project for the University President's Office.<br>
+                        Attended a variety of events and training sessions, gaining insights into societal gender inequalities, York's focus on well-being, and approaches to meeting Sustainable Development Goals, broadening my perspective and skills.
+                    </td>
+                    <td>May 2023- Present</td>
+                </tr>
+                <tr>
+                    <td><b>Student Advisory Committee</b></td>
+                    <td>York University</td>
+                    <td>
+                        Participated in 6 Student Advisory Committee meetings, focusing on enhancements of the Registrar's office resources and policies.<br>
+                        Engaged in critical discussions on optimizing campus space utilization and class scheduling procedure to improve Yorks’ student’s educational experiences and accessibility to underused areas.<br>
+                        Advised on the improvement of advisory services, with a focus on combining resources for academic, professional, and financial advising into a single, all-inclusive online platform for York students, which includes tailored assistance for student athletes.
+                    </td>
+                    <td>October 2023 - March 2024</td>
+                </tr>
+                <tr>
+                    <td><b>York International</b></td>
+                    <td>York University</td>
+                    <td>
+                        Cultivated a thriving community of 10+ new international and exchange students, fostering meaningful connections by organizing virtual and in-person activities while offering peer-to-peer support.<br>
+                        Effectively boosted peer participation in events and programs through monthly newsletters and active meeting discussions.<br>
+                        Established regular communication with the assigned team lead, attending all team meetings to ensure smooth collaboration. 
+                    </td>
+                    <td>September 2021 - December 2022</td>
+                </tr>
+            </table>
+            
+        </section>
+
+        <section id="nude">            
+            <table id="projects">
+                <caption>PROJECTS</caption>
+                <tr>
+                    <th>Title</th>
+                    <th>Details</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td><b>Comparative Analysis of used cars</b><br>Academic Project</td>
+                    <td>Conducted a comprehensive analysis utilizing excel regression analysis to assist in making an informed decision on purchasing a used car. I manually gathered data entries from online markets, focusing on a specific choice of car make and model to analyze price variability based on mileage, manufacturing year and certification status. Developed a regression model predicting prices from mileage and generating residual, residual plots and life fit plot to identify the best value purchase.</td>
+                    <td>February 2024</td>
+                </tr>
+                <tr>
+                    <td><b>Website Creation</b><br>Academic Project</td>
+                    <td>Created a personal website for myself. Considered the asthetics that defines me and created a logo that represents me as well. Made use of HTML and CSS to create the webpage.</td>
+                    <td>April 2024</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="nudetoblue">
+            <h1 id="contact">Contact</h1>
+            <p> </p>
+            <p><a href="mailto:adekiita@my.yorku.ca">E-mail Me</a></p>
+        </section>
+
+    </body>
+</html>
